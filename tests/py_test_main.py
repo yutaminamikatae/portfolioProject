@@ -3,4 +3,4 @@ from apps.minimalapp.app import app
 def test_flask_sample():
     client = app.test_client()
     result = client.get('/')
-    assert b'flask test1' == result.data
+    assert b'flask test2' == result.data
